@@ -34,7 +34,7 @@ class CustomException(Exception):
 
     def __init__(
         self,
-        error: Exception,
+        error,
         error_detail: Tuple[Optional[type],
         Optional[BaseException],
         Optional[TracebackType]]
